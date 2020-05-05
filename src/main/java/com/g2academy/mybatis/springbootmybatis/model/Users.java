@@ -20,14 +20,6 @@ public class Users {
         this.email = email;
     }
 
-    public Users(String name, String branch, int percentage, int phone, String email) {
-        this.name = name;
-        this.branch = branch;
-        this.percentage = percentage;
-        this.phone = phone;
-        this.email = email;
-    }
-
     public int getId() {
         return id;
     }

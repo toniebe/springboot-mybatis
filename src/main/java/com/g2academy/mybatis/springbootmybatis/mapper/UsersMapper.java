@@ -18,5 +18,5 @@ public interface UsersMapper {
     void update(Users users);
 
     @Delete("delete from student where ID=#{id}")
-    void delete(Users users);
+    void delete(int id);
 }
